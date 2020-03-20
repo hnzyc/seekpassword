@@ -9,7 +9,7 @@ function flower_password(pwd, key) {
 	console.assert(rule.length === source.length, "md5 output length not equal");
 	for (var i = 0; i < source.length; ++i) {
 		if (isNaN(source[i])) {
-			var str = "sunlovesnow1990090127xykab";
+			var str = "simaolovewenwen01290710";
 			if (str.search(rule[i]) > -1) {
 				source[i] = source[i].toUpperCase();
 			}
